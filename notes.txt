@@ -1,0 +1,58 @@
+First need to create repository in github
+
+git clone <url> - This command used to download files from github to local
+ls              - It will show repositories
+code .          - After change the directory to specific repo if we type code . it will automaticall opent in vs code
+git add <filename> - This command is used to add specific files
+git status        - It will check modified files status
+git commit -m "success"   - It store updated files/ We add and commit multiple time for many files before push
+git push - It will store data from local and repo
+git pull   - It will pull updated data from repo
+
+Merge conflicts - if code different from local and repo when pull , the merge conflicts appears to fix error
+
+git commit -am "sucesss"  - This command will commit all updated files / we dont use git add when we using this command
+git reset --hard <commit hash> - It will reset
+git reset -- hard origin/master - 
+
+Branching - 3 members creating 3 module in seperate branches and finally 3 module will mereg in master
+
+git branch - To check branch list
+git checkout -b "new branch"   - It will create branch
+git checkout <branch name >   - To change the branch
+git merge <branchname>  - It will merge branches and master
+
+
+
+
+Unable to auto-detect email address (got 'Arreane@Arreane-PC.(none)')
+
+*** Please tell me who you are.
+
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+to set your account's default identity.
+
+Omit --global to set the identity only in this repository
+
+
+
+Git config
+Git init
+Git add
+Git diff
+Git commit
+Git reset
+Git status
+Git merge
+Git push
+Git pull
+
+Git config --global user.name "Simplilearn GitHub"
+
+Git config --global user.email siddam.bharat@simplilearn.net
+
+Git config –list
